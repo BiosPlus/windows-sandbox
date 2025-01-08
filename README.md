@@ -1,5 +1,3 @@
-# windows-sandbox
-
 This repository contains a Windows Sandbox template that I use for Upwork contracting. It enables me to spin up a safe and isolated environment quickly.
 
 ## Programs Installed
@@ -28,3 +26,9 @@ The `Sandbox-Upwork.wsb` file contains the configuration for the Windows Sandbox
 - **ClipboardRedirection**: Enables clipboard redirection.
 - **MemoryInMB**: Allocates 8192 MB of memory to the sandbox.
 - **ProtectedClient**: Enables protected client mode.
+
+---
+
+TODO:
+
+- More sandbox templates for other uses.
