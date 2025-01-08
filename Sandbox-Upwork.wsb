@@ -9,5 +9,11 @@
    <LogonCommand>
      <Command>powershell.exe -ExecutionPolicy Bypass -Command "start powershell.exe { -File C:\Windows-Sandbox\SandboxTemplates\Install-Choco.ps1 }"</Command>
    </LogonCommand>
-   <vGPU>enabled</vGPU>
+   <vGPU>enable</vGPU>
+   <AudioInput>disable</AudioInput>
+   <VideoInput>disable</VideoInput>
+   <PrinterRedirection>disable</PrinterRedirection>
+   <ClipboardRedirection>enable</ClipboardRedirection>
+   <MemoryInMB>8192</MemoryInMB>
+   <ProtectedClient>enable</ProtectedClient>
 </Configuration>
